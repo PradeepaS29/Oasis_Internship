@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #1e40af;
+        }
+
+        /* About */
+        .about p {
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Skills */
+        .skills {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .skill-box {
+            background-color: white;
+            width: 200px;
+            margin: 15px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Projects */
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .project-box {
+            background-color: white;
+            width: 280px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Resume */
+        .resume {
+            text-align: center;
+        }
+
+        .resume a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .resume a:hover {
+            background-color: #1e40af;
+        }
+
+        /* Contact */
+        .contact p {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header / Introduction -->
+    <header>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEuAn9AvhNpvQ/profile-displayphoto-crop_800_800/B4DZj1T4WpH4AM-/0/1756462288303?e=1768435200&v=beta&t=KQM7xlDAVKNWcJ7uU2EKKLiDgOr-IHN-PvR63j7dreQ" alt="Profile Image">
+        <h1>S PRADEEPA</h1>
+        <p>Web Developer | Student | Intern</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a beginner web developer learning HTML and CSS.
+            I am passionate about creating clean and simple websites
+            and improving my front-end development skills.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill-box">HTML</div>
+            <div class="skill-box">CSS</div>
+            <div class="skill-box">JavaScript</div>
+            <div class="skill-box">C / Java</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-box">
+                <h3>Landing Page</h3>
+                <p>A simple landing page using HTML and CSS.</p>
+            </div>
+            <div class="project-box">
+                <h3>Student Registration Form</h3>
+                <p>Form application with clean UI design.</p>
+            </div>
+            <div class="project-box">
+                <h3>To-Do App</h3>
+                <p>Task management application using JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume below</p>
+        <a href="#">Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: spradeepa@gmail.com</p>
+        <p>Phone: +91 6789543212</p>
+        <p>Location: India</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Pradeepa | Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
